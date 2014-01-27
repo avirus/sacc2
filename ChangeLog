@@ -1,0 +1,41 @@
+#    SAcconting2                                            [SAcc system] 
+#   Copyright (C) 2003-2009					slavik
+#
+#   This program is free software; you can redistribute it and/or modify
+#   it under the terms of the GNU General Public License as published by
+#   the Free Software Foundation; either version 2 of the License, or
+#   (at your option) any later version.
+#
+#   This program is distributed in the hope that it will be useful,
+#   but WITHOUT ANY WARRANTY; without even the implied warranty of
+#   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#   GNU General Public License for more details.
+#
+#   You should have received a copy of the GNU General Public License
+#   along with this program; if not, write to the Free Software
+#
+# Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#
+version notes:
+ STABLE - production releases was tested with default values. (on FreeBSD and/or Linux),
+ PRE - prerelease, partially tested (I think much more then CURRENT)
+ CURRENT - may have some bugs, may not works. but "make" is passed.
+ SVN - SNAPSHOT version.
+
+Versions changing.
+// www: http://sacc.cybersec.ru
+//$Author: slavik $ $Date: 2008-04-30 14:45:12 +0600 (Срд, 30 Апр 2008) $
+//$Id: ChangeLog 5 2008-04-30 08:45:12Z slavik $
+// (C) slavik
+// Legend:
+// + Added
+// * Improved/changed
+// - Bug fixed
+// ! Important
+
++ script for monthly session "cleaning", useful for offices. (for use - set script sacc2-checkpoint-sessions in cron task!)
+- fixed nasty bug with mysql connection exhausting while some sessions closed
+! database changed (code and indexes)
+
+2.00-alpha4 2009-03-11
+! initial public release, still buggy, but working

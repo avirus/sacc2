@@ -1,0 +1,1 @@
+freebsd: please add "options IPFIREWALL_FORWARD" to kernel config

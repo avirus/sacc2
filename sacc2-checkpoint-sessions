@@ -1,0 +1,10 @@
+#!/bin/bash
+# $Author: slavik $ $Rev: 55 $
+# $Id: dbschema.sql 55 2009-03-10 11:23:18Z slavik $
+
+_spath="/root/sacc2-work/src"
+killall -TERM pcap
+sleep 1
+echo "call nat_sessions_checkpoint(1);"| mysql sacc2 -u root -B -f >>/tmp/sacc2-relaunch.log
+$_spath/pcap >>/tmp/sacc2-relaunch.log
+

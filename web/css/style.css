@@ -1,0 +1,38 @@
+A:link { color:#6300C6; }
+A:visited { color:#6300C6 }
+body {font-family:Tahoma;}
+td {font-size:80%}
+input {font-size:100%}
+
+.content {padding-left:19px; padding-right:19px; padding-top:20px; padding-bottom:20px;}
+.tbl_header {font-size:110%; color:#686663; font-family:Tahoma;}
+.tbl_cont {padding-right:10px}
+
+span.red_text {color:#ce1126}
+span.h1 {font-size:170%; font-family:Arial; color:#686663; font-weight:400}
+
+.button {font-size:80%; width:70px}
+
+td.lev1 {padding:6px; font-weight:bold; color:#686663; font-size:75%}
+td.lev1 a {font-size:100%; text-decoration:none; color:#686663;}
+
+td.lev1_act {padding:6px; font-weight:bold; color:#686663; font-size:75%; background-color:#f0f0f0}
+td.lev1_act a {font-size:100%; text-decoration:none; color:#000000;}
+
+td.lev2 {padding:5px; padding-left:20px; font-size:75%}
+td.lev2 a {font-size:100%; text-decoration:none; color:#686663;}
+
+td.lev2_act {padding:5px; padding-left:20px; font-size:75%; background-color:#f0f0f0}
+td.lev2_act a {font-size:100%; text-decoration:none; color:#000000;}
+
+.mini_text {padding-left:15px; font-size:70%; color:#686663}
+.u_name {padding-left:15px; font-size:80%; color:#000000;}
+
+.footer {font-size:70%; color:#686663}
+.footer a {font-size:100%; color:#686663}
+
+
+.tarif_header td {color:#ce1126}
+.tarif_cell_1 td {background-color:#f0f0f0; color:#000000}
+.tarif_cell_2 td {background-color:#f8f8f8; color:#000000}
+

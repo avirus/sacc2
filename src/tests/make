@@ -1,0 +1,9 @@
+#!/bin/sh
+
+rm -f a-test  result.out gmon.out
+gcc -o ./a-test ../aggregator.cpp aggregator-test.cpp -lstdc++ -Wall -W -g -O3 -I../
+./a-test
+gcc -o ./a-test ../aggregator.cpp aggregator-test.cpp -lstdc++ -Wall -W -g -pg -O3 -I../
+./a-test
+gprof a-test > result.out
+

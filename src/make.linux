@@ -1,0 +1,3 @@
+#killall -KILL pcap
+gcc pcap.cpp mylog.cpp sql.cpp client.cpp connection.cpp pid.cpp aggregator.cpp -o pcap -I/usr/local/include -L/usr/lib/mysql -L/usr/local/lib/mysql -L/usr/local/lib -lpcap -L/usr/lib -lstdc++ -lpthread -lmysqlclient -I. -g -ggdb -gdwarf-2 -Wall -O3 -DLNX
+# -Wno-write-strings
